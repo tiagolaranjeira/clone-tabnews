@@ -28,16 +28,20 @@ function Home() {
       background: '#5733FF', // Cor de fundo do terceiro contêiner
     };
   
+    const textStyle = {
+      textAlign: 'center', // Centraliza horizontalmente o texto
+    };
+  
     return (
       <div style={mainContainerStyle}>
         <div style={{ ...containerStyle, ...container1Style }}>
-          <h1>Vocês vão ter que me engolir!</h1>
+            <h1 style={textStyle}>Vocês vão ter que me engolir!</h1>
         </div>
         <div style={{ ...containerStyle, ...container2Style }}>
-        <h1>Vocês vão ter que me engolir!</h1>
+            <h1 style={textStyle}>Vocês vão ter que me engolir!</h1>
         </div>
         <div style={{ ...containerStyle, ...container3Style }}>
-        <h1>Vocês vão ter que me engolir!</h1>
+            <h1 style={textStyle}>Vocês vão ter que me engolir!</h1>
         </div>
       </div>
     );
