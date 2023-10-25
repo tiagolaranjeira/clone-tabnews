@@ -34,10 +34,10 @@ function Home() {
           <h1>Vocês vão ter que me engolir!</h1>
         </div>
         <div style={{ ...containerStyle, ...container2Style }}>
-          <p>Conteúdo do segundo contêiner</p>
+        <h1>Vocês vão ter que me engolir!</h1>
         </div>
         <div style={{ ...containerStyle, ...container3Style }}>
-          <p>Conteúdo do terceiro contêiner</p>
+        <h1>Vocês vão ter que me engolir!</h1>
         </div>
       </div>
     );
