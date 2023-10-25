@@ -4,7 +4,8 @@
   "description": "Projeto de aprendizagem de estruturação do zero",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build && next export"
   },
   "author": "",
   "license": "MIT",
