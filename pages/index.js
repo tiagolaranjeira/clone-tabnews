@@ -26,10 +26,10 @@ function Home() {
           <h1>Vocês vão ter que me engolir!</h1>
         </div>
         <div style={containerStyles[1]}>
-          <p>Agora eu sou um projeto de programador!</p>
+        <h1>Vocês vão ter que me engolir!</h1>
         </div>
         <div style={containerStyles[2]}>
-          <p>Mas daqui a pouco eu serei um, kkkkk!</p>
+        <h1>Vocês vão ter que me engolir!</h1>
         </div>
       </div>
     );
