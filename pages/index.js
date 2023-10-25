@@ -17,15 +17,15 @@ function Home() {
     };
   
     const container1Style = {
-      background: '#FF5733', // Cor de fundo do primeiro contêiner
+      background: '#00FFFF', // Cor de fundo do primeiro contêiner
     };
   
     const container2Style = {
-      background: '#33FF57', // Cor de fundo do segundo contêiner
+      background: '#E6E6FA', // Cor de fundo do segundo contêiner
     };
   
     const container3Style = {
-      background: '#5733FF', // Cor de fundo do terceiro contêiner
+      background: '#F0FFF0', // Cor de fundo do terceiro contêiner
     };
   
     const textStyle = {
