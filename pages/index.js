@@ -1,23 +1,36 @@
 function Home() {
-    const containerStyle = {
+    const mainContainerStyle = {
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
       height: '100vh',
-      background: '#f0f0f0', // Cor de fundo
+      background: '#f0f0f0', // Cor de fundo do contêiner principal
     };
   
-    const centerTextStyle = {
-      textAlign: 'center',
-      margin: '20px', // Margem para separar o texto do contêiner abaixo
-    };
+    const containerStyles = [
+      {
+        background: '#FF5733', // Cor de fundo do primeiro contêiner
+      },
+      {
+        background: '#33FF57', // Cor de fundo do segundo contêiner
+      },
+      {
+        background: '#5733FF', // Cor de fundo do terceiro contêiner
+      },
+    ];
   
     return (
-      <div style={containerStyle}>
-        <h1 style={centerTextStyle}>Vocês vão ter que me engolir!</h1>
-        <div style={centerTextStyle}>Outro texto aqui</div>
-        <div style={centerTextStyle}>Mais texto</div>
+      <div style={mainContainerStyle}>
+        <div style={containerStyles[0]}>
+          <h1>Vocês vão ter que me engolir!</h1>
+        </div>
+        <div style={containerStyles[1]}>
+          <p>Agora eu sou um projeto de programador!</p>
+        </div>
+        <div style={containerStyles[2]}>
+          <p>Mas daqui a pouco eu serei um, kkkkk!</p>
+        </div>
       </div>
     );
   }
